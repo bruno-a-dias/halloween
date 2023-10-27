@@ -1,0 +1,154 @@
+body {
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff6600;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    color: #ff6600;
+    font-size: 24px;
+}
+
+.content {
+    text-align: left;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+.hidden {
+    display: none;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.1); /* Adicione um fundo semi-transparente para tornar o conteúdo legível */
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative; /* Defina o posicionamento como relativo */
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#scaryImageContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    z-index: 2; /* Coloque a imagem em primeiro plano */
+}
+
+#scaryImageContainer img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
